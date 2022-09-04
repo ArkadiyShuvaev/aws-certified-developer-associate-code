@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "39de6cb5-0aba-43a3-ac4c-4df733b4fa47",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://6ccs3swcy0.execute-api.eu-central-1.amazonaws.com/production/pets/",
+    "url": "https://6ccs3swcy0.execute-api.eu-central-1.amazonaws.com/production/pets/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-04T14:29:29.243Z",
+    "modified": "2022-09-04T14:51:31.938Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "252d29a4-3db1-49f5-8d53-ca8555497040",
+    "colId": "history",
+    "containerId": "",
+    "name": "POST https://6ccs3swcy0.execute-api.eu-central-1.amazonaws.com/production/pets/",
+    "url": "https://6ccs3swcy0.execute-api.eu-central-1.amazonaws.com/production/pets/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-09-04T14:29:29.243Z",
+    "modified": "2022-09-04T14:51:39.303Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n    \"type\" : \"cat\",\r\n    \"price\" : 123.11\r\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
