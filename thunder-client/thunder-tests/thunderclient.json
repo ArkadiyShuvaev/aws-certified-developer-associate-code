@@ -41,5 +41,24 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "7005e7be-8e21-48df-86bc-be80ab6b871d",
+    "colId": "17cbae3e-54a6-4e3e-a74c-2ac1fce1face",
+    "containerId": "",
+    "name": "Get-Transactions",
+    "url": "https://35olaphc83.execute-api.eu-central-1.amazonaws.com/production/transactions",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-09-06T06:23:54.041Z",
+    "modified": "2022-09-06T06:25:47.072Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "eyJraWQiOiJDM3JZXC9PQ3YxNGhuazB2NUNIQ2tleHZyS0RKVnRVTkQwU0x6N09pWHA5UT0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiUW9IQ01aYXRCa1licmNfZ2ZEUUQ3QSIsInN1YiI6Ijk2MjdlN2E5LTU2NGItNDk3ZC04YWU3LWQ1YWQ4YjZhOWUzYiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtY2VudHJhbC0xLmFtYXpvbmF3cy5jb21cL2V1LWNlbnRyYWwtMV91Y2JTZTl5N2EiLCJjb2duaXRvOnVzZXJuYW1lIjoiOTYyN2U3YTktNTY0Yi00OTdkLThhZTctZDVhZDhiNmE5ZTNiIiwiZ2l2ZW5fbmFtZSI6IkFya2FkaXkiLCJhdWQiOiI1MmFybXZjNzg4aTJlc25oamgyaWlicjNqZiIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjYyNDQ0OTE2LCJleHAiOjE2NjI0NDg1MTYsImlhdCI6MTY2MjQ0NDkxNiwiZmFtaWx5X25hbWUiOiJTaHV2YWV2IiwianRpIjoiMWUyOTNjNWMtOWY1ZS00Y2VjLWFjY2EtNGExYTM1NzA5ZDBhIiwiZW1haWwiOiJzaHV2YWV2LmFya2FkeUBnbWFpbC5jb20ifQ.Xfg9idlSjxjAA8meO3aam7YZDfUMx6neVgI5YhX-zKmC-_edD_vJ90NabY2izF0lTI45f9p47ntqb1vzVnO5octc47cv87TjTDG_9bnM8WbK2A_Viexd7xfe7zQwoOZg8kgGQU-8J3dnVbRallhYa-l0N2xjdKPFHxSCgYXW86uxxIrVe46Z2Twdtx2M3kY_3dCKVIAi7vuilDuBj4XOSeUL8V6z_0BBjW28rMdgbe-I5qRTlbBm4HUWwPPYr71trWwnqRhZ6n4aR4LXUZ6HJQRuo-z5uFaevbeeydz-M5oBafcW_0UMps1fsqWE48Ar8F5IY_2HQNytJUbk-AsHtg"
+      }
+    ],
+    "params": [],
+    "tests": []
   }
 ]

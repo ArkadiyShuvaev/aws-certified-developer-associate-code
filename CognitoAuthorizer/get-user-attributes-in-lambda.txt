@@ -1,0 +1,7 @@
+Is it possible to get cognito user attributes in Lambda/cloud logic ?
+https://github.com/aws-amplify/amplify-js/issues/390
+
+mlabieniec commented on Mar 1, 2018
+@daannijkamp you won't receive the attributes via context, you would need to call the cognito api with the provided info to retrieve anything like that. You can retrieve it via the aws-sdk via the lambda function:
+https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/CognitoIdentityServiceProvider.html#getUser-property
+

@@ -5,5 +5,12 @@
     "created": "2022-09-04T14:30:16.764Z",
     "sortNum": 10000,
     "folders": []
+  },
+  {
+    "_id": "17cbae3e-54a6-4e3e-a74c-2ac1fce1face",
+    "colName": "API-Gateway-Cognito-Authorizer",
+    "created": "2022-09-06T06:23:39.612Z",
+    "sortNum": 20000,
+    "folders": []
   }
 ]
