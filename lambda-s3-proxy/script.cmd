@@ -1,0 +1,2 @@
+
+aws lambda create-function --function-name s3-proxy --runtime "nodejs16.x" --role "arn:aws:iam::1234567890:role/s3-proxy-lambda-execution-role" --handler "index.handler" --zip-file fileb://index.zip --timeout 30 --package-type Zip --vpc-config SubnetIds=subnet-1,subnet-2,SecurityGroupIds=sg-f --description "The function proxies requests to the '/public' and '/.well-known' destinations." --memory-size 128 --timeout 10 --architectures arm64
